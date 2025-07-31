@@ -1,10 +1,15 @@
 body {
-      font-family: Arial, sans-serif;
+      font-family: Arial, sans-serif; 
       max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
       color: #000000;
       background: #fefefe;
+
+      background-image: url(/assets/main.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
     }
     header {
       text-align: center;
