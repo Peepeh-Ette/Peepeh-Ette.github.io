@@ -1,15 +1,18 @@
 body {
       font-family: Arial, sans-serif; 
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
       color: #000000;
-      background: #fefefe;
-
       background-image: url(/assets/main.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+    }
+    .content-wrapper {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     }
     header {
       text-align: center;
